@@ -33,9 +33,6 @@ insert_file_over_pattern 'config/application.rb' 'Bundler.require'
 # One important part of this is exercising the JS/CSS assets.
 #
 cp ../inserts/config/routes.rb config/routes.rb
-cp ../inserts/app/views/layouts/application.html.erb app/views/layouts/application.html.erb
-mkdir -p app/views/application
-cp ../inserts/app/views/application/index.html.erb app/views/application/index.html.erb
 
 # Much like Heroku, most Rails applications can serve static
 # assets without the complexity of an S3-backed asset host.

@@ -22,6 +22,9 @@ rails _"$VERSION"_ new rename_me --api\
   --skip-action-cable \
   --skip-spring \
   --skip-listen \
-  --skip-bootsnap
+  --skip-bootsnap \
+  --skip-test \
+  --skip-javascript \
+  --skip-sprockets
 
 mv "rename_me" "$PROJECT_FOLDER"

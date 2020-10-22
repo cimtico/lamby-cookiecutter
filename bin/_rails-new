@@ -12,7 +12,7 @@ rm -rf "$PROJECT_FOLDER"
 
 gem install rails -v $VERSION --no-document
 
-rails _"$VERSION"_ new rename_me \
+rails _"$VERSION"_ new rename_me --api\
   --skip-action-mailer \
   --skip-action-mailbox \
   --skip-action-text \
